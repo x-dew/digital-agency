@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 
@@ -405,7 +409,9 @@ body {
     min-height: 8px;
     background: #2B4074;
 }
-
+.news__img {
+    position: relative;
+}
 /*command end*/
 
 /*news start*/
@@ -435,7 +441,6 @@ body {
 }
 
 .news__img {
-    max-width: 270px;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -452,10 +457,18 @@ body {
     font-weight: bold;
 }
 .news__img-list{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 30px;
-    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 880px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.news__list {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
 }
 
 /*news end*/
@@ -487,5 +500,81 @@ body {
 .footer{
     min-height: 640px;
     background: #2B4074;
+    padding-bottom: 80px;
+}
+.footer__list-logo{
+    position: relative;
+}
+.footer__logo {
+    min-width: 230px;
+    min-height: 60px;
+    background-color: #2B4074;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 3px;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 125px);
+}
+.footer__title-desp{
+    padding-top: 161px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 2px;
+ color: #FFFFFF;
+}
+.footer__list-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer__href {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #7EBF84;
+    padding: 20px 0;
+    margin: 110px 0 80px 0;
+}
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer__menu-title {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #F9F6E5;
+    margin-bottom: 22px;
+}
+.footer__list-title{
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.footer__href-top{
+    background: #F9F6E5;
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+}
+.footer__top{
+    margin: 0;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #4A4A4A;
+
+}
+.footer__href-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer__top-href{
+    margin-left: 10px;
 }
 /*footer end*/
