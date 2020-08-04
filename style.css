@@ -39,7 +39,115 @@ body {
     width: 40px;
     background-color: white;
     border-radius: 5px;
+    position: relative;
+    cursor: pointer;
 }
+
+.header__menu-list-title:hover .header__item-menu-first {
+    transform: rotate(31deg);
+    width: 33px;
+}
+
+.header__menu-list-title:hover .header__item-menu-third {
+    transform: rotate(-31deg);
+    width: 33px;
+}
+
+.header__menu-list-title:hover .header__item-menu-second {
+    width: 31px;
+}
+
+.header__item-menu-first {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: calc(50% - 15px);
+    top: 23%;
+}
+
+.header__item-menu-second {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: calc(50% - 15px);
+    top: 48%;
+}
+
+.header__item-menu-third {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: calc(50% - 15px);
+    bottom: 23%;
+}
+
+/*nav start*/
+.nav__menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 400px;
+    background-color: #6376a5;
+    z-index: 999;
+    color: #FFFFFF;
+
+}
+
+.nav__menu-list-title {
+    height: 26px;
+    width: 40px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    cursor: pointer;
+    top: 30px;
+    right: 30px;
+
+}
+
+.nav__item-menu-first {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: calc(50% - 15px);
+    top: 26%;
+}
+
+.nav__item-menu-second {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: calc(50% - 15px);
+    top: 60%;
+}
+.nav__list-menu {
+    font-size: 30px;
+    margin: 30px;
+    cursor: pointer;
+    width: 200px;
+}
+.nav__list-href{
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.nav__list-menu:hover {
+    color: #baa4a4;
+}
+
+
+/*nav end*/
 
 /*slider start*/
 .slider {
@@ -427,10 +535,12 @@ body {
     border: none;
     cursor: pointer;
 }
+
 .command__list-button:hover {
     background: #1c2b4c;
     color: #FFFFFF;
 }
+
 .command__list-span {
     max-width: 113px;
     min-height: 8px;
@@ -674,6 +784,7 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+
 .footer__list-href {
     text-decoration: none;
     color: #FFFFFF;

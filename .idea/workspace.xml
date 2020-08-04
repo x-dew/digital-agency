@@ -26,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../черновик/digital-agency.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Odiqo/js/main.js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -48,6 +48,7 @@
       <workItem from="1596258814331" duration="33116000" />
       <workItem from="1596342098311" duration="36069000" />
       <workItem from="1596426581013" duration="21911000" />
+      <workItem from="1596527456668" duration="8011000" />
     </task>
     <servers />
   </component>
@@ -55,9 +56,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="154" y="275" key="FileChooserDialogImpl" timestamp="1596456081687">
+    <state x="154" y="275" key="FileChooserDialogImpl" timestamp="1596535378262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="154" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596456081687" />
+    <state x="154" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596535378262" />
   </component>
 </project>
